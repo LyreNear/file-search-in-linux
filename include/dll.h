@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <stdint.h>
+#include "def.h"
 
 #ifndef INLINE
     #ifdef __APPLE__
@@ -16,10 +17,6 @@
         #define INLINE
     #endif
 #endif
-
-#define BOOL int
-#define TRUE 1
-#define FALSE 0
 
 #ifdef __cplusplus
 extern "C" {
