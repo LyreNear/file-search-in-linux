@@ -1,15 +1,6 @@
 #include "include.h"
 
 
-INT32 search_file(CHAR *, CHAR *);
-
-
-
-int main() {
-    CHAR *pcPath = "/home/lyre/code/c/file-search-in-linux", *filename = "123";
-    search_file(pcPath, filename);
-    return 0;
-}
 
 INT32 search_file(CHAR *acPath, CHAR *filename) {
     INT32 iRet = 0;

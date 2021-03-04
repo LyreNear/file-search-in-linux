@@ -11,5 +11,6 @@
 #include "def.h"
 #include "file.h"
 #include "stack.h"
+#include "file_search.h"
 
 #endif // include.h
