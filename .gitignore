@@ -27,7 +27,6 @@
 .dirstamp
 .DS_Store
 modules.order
-Makefile
 Makefile.in
 
 #
